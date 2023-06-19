@@ -14,7 +14,7 @@ const Header = () => {
         <Link href="/">Pricing</Link>
         <Link href="/">FAQ</Link>
       </div>
-      <Button>Get started</Button>
+      <Button>Try robot for free</Button>
     </header>
   )
 }
