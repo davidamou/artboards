@@ -20,13 +20,13 @@ const DesignBetter = () => {
         />
         <Card
           icon={<FolderIcon className="h-6 w-6 text-white" />}
-          title="Generate speed"
+          title="Document center"
           content="You have access to a lot of designs, you can generate a lot of designs in a short time"
           color="bg-pink-600"
         />
         <Card
           icon={<HeartIcon className="h-6 w-6 text-white" />}
-          title="Generate speed"
+          title="Lovely place"
           content="You have access to a lot of designs, you can generate a lot of designs in a short time"
           color="bg-blue-700"
         />

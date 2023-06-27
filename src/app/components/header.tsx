@@ -12,7 +12,7 @@ const Header = () => {
         isMenuOpen ? "h-full" : "h-max"
       }`}
     >
-      <div className="md:w-5/6 md:m-auto flex lg:items-center lg:flex-row lg:justify-between text-sm flex-col my-4">
+      <div className="md:w-5/6 lg:m-auto flex lg:items-center lg:flex-row lg:justify-between text-sm flex-col my-4">
         <div className="flex items-center lg:border-b-0 lg:p-0 mx-5 lg:mx-0 space-x-4">
           <button
             className="lg:hidden border p-0 rounded-md"
@@ -30,11 +30,11 @@ const Header = () => {
         </div>
 
         <div
-          className={`lg:flex-row lg:space-x-10 lg:text-gray-600 flex-col text-base space-y-6 lg:space-y-0 w-full lg:w-max lg:p-0 py-4 ${
+          className={`lg:flex-row lg:space-x-10 lg:text-gray-600 flex-col text-base space-y-6 lg:space-y-0 w-full lg:w-max py-4 ${
             isMenuOpen ? "flex" : "hidden lg:flex"
           }`}
         >
-          <Link className="px-5 lg:p-0 py-1" href="/">
+          <Link className="px-5 lg:p-0 py-1" href="/about">
             About us
           </Link>
           <Link className="px-5 lg:p-0 py-1" href="#seconde">
@@ -51,7 +51,7 @@ const Header = () => {
           </Link>
         </div>
         <div className={`m-4 ${isMenuOpen ? "" : "hidden lg:flex"}`}>
-          <Button>Try robot for free</Button>
+          <Button onClick={() => alert("hello")}>Try robot for free</Button>
         </div>
       </div>
     </header>

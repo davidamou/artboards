@@ -1,6 +1,6 @@
+import Avatar from "@/app/components/avatar"
+import Button from "@/app/components/button"
 import Image from "next/image"
-import Avatar from "../components/avatar"
-import Button from "../components/button"
 
 const FirstPage = () => {
   return (
