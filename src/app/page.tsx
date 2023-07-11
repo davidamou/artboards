@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="mb-12">
       <Header />
-      <div className="md:w-5/6 md:m-auto mx-5 mt-20">
+      <div className="md:w-5/6 md:m-auto mx-5">
         <FirstPage />
         <DesignBetter />
        <BestArtBoardSellers />
